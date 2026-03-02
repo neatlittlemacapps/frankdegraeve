@@ -1,0 +1,47 @@
+---
+degrees:
+- institution: College of Multimedia
+  degree: ''
+  field: ''
+  start_year: '2006'
+  end_year: '2006'
+  notes: ''
+- institution: HOGENT
+  degree: Graphical Technics
+  field: ''
+  start_year: ''
+  end_year: ''
+  notes: ''
+certifications:
+- name: Certified Scrum Master
+  authority: Scrum Alliance
+  year: '2012'
+  url: http://members.scrumalliance.org/profiles/197918-frank-de-graeve
+- name: Sitecore® XP 8 Experience Marketing Fundamentals
+  authority: Sitecore
+  year: '2016'
+  url: ''
+- name: Certified Scrum Product Owner
+  authority: Scrum Alliance
+  year: '2016'
+  url: ''
+- name: Facilitator in the LEGO® SERIOUS PLAY® Method
+  authority: LEGO® SERIOUS PLAY® Certified Facilitator
+  year: '2018'
+  url: ''
+- name: Overtuig als spreker met boeiende presentaties
+  authority: Udemy
+  year: '2018'
+  url: https://www.udemy.com/certificate/UC-38AZCOA1/
+- name: Spreken voor een groep
+  authority: Expert Academy
+  year: '2019'
+  url: http://www.expertacademy.be
+- name: Solution-Focused Practitioner - Centrum Oplossingsgericht  Coachen
+  authority: ''
+  year: ''
+  url: ''
+- name: Group Speaking - Expert Academy
+  authority: ''
+  year: '2019'
+  url: ''

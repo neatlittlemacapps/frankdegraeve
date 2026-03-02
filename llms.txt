@@ -1,0 +1,34 @@
+# Frank De Graeve — Personal Website
+# llms.txt · Machine-readable summary for AI search and crawlers
+# Last updated: 2026-03-02
+# Site: https://neatlittlemacapps.github.io/neatlittlemacapps-blog/
+
+## About
+
+Frank De Graeve is a DesignOps leader, UX strategist, and AI adoption advocate.
+He helps teams build the conditions to scale design impact and AI fluency.
+He also builds indie Mac apps under the Neat Little Mac Apps label.
+
+## Professional positioning
+
+I build systems, not screens.
+Specialisms: DesignOps, UX Strategy, AI Adoption, Design Systems, Design Leadership.
+
+## Pages
+
+- Homepage: /
+- Blog (writing): /blog/
+- Portfolio (selected work): /portfolio/
+- CV (full career history): /cv/
+- Contact: /contact/
+
+## Contact
+
+Email: frank.de.graeve@neatlittlemacapps.com
+GitHub: https://github.com/neatlittlemacapps
+Twitter: https://twitter.com/neatlittlemacapps
+LinkedIn: https://www.linkedin.com/in/frankdegraeve/
+
+## RSS Feed
+
+https://neatlittlemacapps.github.io/neatlittlemacapps-blog/feed.xml

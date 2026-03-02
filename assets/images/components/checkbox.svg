@@ -1,6 +1,0 @@
-<svg width="200" height="120" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
-  <rect width="200" height="120" fill="#f8f9fa"/>
-  <rect x="85" y="45" width="30" height="30" rx="4" fill="#0066cc" stroke="#0066cc" stroke-width="2"/>
-  <path d="M 92 60 L 98 66 L 108 53" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="100" y="95" font-family="system-ui" font-size="12" fill="#666" text-anchor="middle">Checkbox</text>
-</svg>

@@ -1,0 +1,8 @@
+- label: Blog
+  url: /blog/
+- label: Portfolio
+  url: /portfolio/
+- label: CV
+  url: /cv/
+- label: Contact
+  url: /contact/

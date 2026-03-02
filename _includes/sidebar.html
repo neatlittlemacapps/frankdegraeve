@@ -1,6 +1,16 @@
 <aside class="sidebar">
-  <nav class="sidebar-nav">
-    {% assign current_section = page.parent | default: page.title %}
+  <nav class="sidebar-nav" aria-label="CV sections">
+    {% if page.url contains '/cv/' %}
+    <h3 class="sidebar-section-title">CV</h3>
+    <ul class="sidebar-menu">
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="{{ '/assets/cv.pdf' | relative_url }}" target="_blank" rel="noopener">Download PDF</a></li>
+    </ul>
+    {% endif %}
+  </nav>
+</aside>
     
     {% if page.url contains '/foundations/' %}
       <h3 class="sidebar-section-title">Foundations</h3>

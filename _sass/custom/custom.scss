@@ -1,5 +1,258 @@
 // Custom styles for Infinitas Learning Design System
 
+// ============================================
+// PERSONAL SITE — NEW COMPONENTS
+// ============================================
+
+// Homepage hero
+.home-hero {
+  padding: 3rem 0 2.5rem;
+  max-width: 720px;
+
+  h1 {
+    font-size: 2.75rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #212529;
+  }
+
+  .hero-tagline {
+    font-size: 1.2rem;
+    color: #495057;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+  }
+
+  .hero-cta {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+}
+
+// Buttons
+.btn {
+  display: inline-block;
+  padding: 0.625rem 1.5rem;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.btn-primary {
+  background: #0066CC;
+  color: #ffffff;
+  border-color: #0066CC;
+
+  &:hover {
+    background: #0052A3;
+    border-color: #0052A3;
+    color: #ffffff;
+  }
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #0066CC;
+  border-color: #0066CC;
+
+  &:hover {
+    background: #e7f3ff;
+  }
+}
+
+// Active nav link
+.nav-link.active {
+  color: #0066CC;
+  font-weight: 600;
+}
+
+// Post meta (date + category line)
+.post-meta {
+  font-size: 0.875rem;
+  color: #6c757d;
+  margin-bottom: 0.5rem;
+
+  .post-category {
+    text-transform: capitalize;
+  }
+}
+
+// Post layout
+.post {
+  max-width: 720px;
+
+  .post-header {
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #dee2e6;
+  }
+
+  .post-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin: 0.25rem 0 0.75rem;
+    color: #212529;
+  }
+
+  .post-description {
+    font-size: 1.125rem;
+    color: #495057;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .post-content {
+    line-height: 1.8;
+    font-size: 1.0625rem;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin: 1.5rem 0;
+    }
+
+    > *:first-child {
+      margin-top: 0;
+    }
+  }
+
+  .post-footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #dee2e6;
+  }
+}
+
+.back-link {
+  font-size: 0.9375rem;
+  color: #0066CC;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// CV page
+.cv-role {
+  margin-bottom: 2.5rem;
+
+  .cv-role-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+  }
+
+  .cv-role-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #212529;
+    margin: 0 0 0.2rem;
+  }
+
+  .cv-role-company {
+    font-size: 0.9375rem;
+    color: #495057;
+    margin: 0;
+
+    .cv-role-location {
+      color: #6c757d;
+    }
+  }
+
+  .cv-role-dates {
+    font-size: 0.875rem;
+    color: #6c757d;
+    white-space: nowrap;
+    margin: 0;
+    flex-shrink: 0;
+  }
+
+  .cv-role-description {
+    font-size: 0.9375rem;
+    color: #495057;
+    margin: 0.5rem 0 0.75rem;
+    line-height: 1.65;
+  }
+
+  .cv-highlights {
+    padding-left: 1.25rem;
+    margin: 0.5rem 0 0;
+
+    li {
+      font-size: 0.9375rem;
+      color: #495057;
+      margin-bottom: 0.35rem;
+      line-height: 1.55;
+    }
+  }
+}
+
+.cv-skill-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    padding: 0.25rem 0;
+    font-size: 0.9375rem;
+    color: #495057;
+    border-bottom: 1px solid #f1f3f5;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+// Contact page
+.contact-links {
+  list-style: none;
+  padding: 0;
+
+  li {
+    margin-bottom: 0.75rem;
+
+    a {
+      font-size: 0.9375rem;
+    }
+  }
+}
+
+// Responsive adjustments for new components
+@media (max-width: 768px) {
+  .home-hero h1 {
+    font-size: 2rem;
+  }
+
+  .home-hero .hero-tagline {
+    font-size: 1.05rem;
+  }
+
+  .cv-role .cv-role-header {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .cv-role .cv-role-dates {
+    white-space: normal;
+  }
+}
+
+// ============================================
+// ORIGINAL CUSTOM STYLES (design system components kept for reuse)
+// ============================================
+
+
 // Callout boxes for Do's and Don'ts
 .callout {
   border-radius: 8px;

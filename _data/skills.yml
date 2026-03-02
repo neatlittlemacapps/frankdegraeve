@@ -1,0 +1,39 @@
+---
+- group: Capabilities
+  items:
+  - name: Design Operations Leadership
+    detail: Process maturity, tooling, governance, team workflows
+  - name: Design Systems at Scale
+    detail: Multi-brand components, documentation, and rollout across orgs
+  - name: Enterprise Alignment
+    detail: Integrating design thinking into product, business, and tech orgs
+  - name: Facilitation & Training
+    detail: Workshops, coaching, and internal capability-building
+  - name: Leadership, team growth & culture
+    detail: Mentorship, cross-team collaboration, stakeholder alignment, team coaching & build-out
+  - name: Strategic UX
+    detail: User-centered research, journey mapping, prototyping/testing, information architecture, service design and design thinking integration, vision definition.
+- group: Tools & Methods
+  items:
+  - name: AI orchestration
+    detail: Understanding and integrating AI orchestration for product and design
+  - name: Collaboration
+    detail: Miro, Figma, Github, Jira, Slack, Notion, cross-functional alignment practices
+  - name: Design Systems
+    detail: Figma, Storybook, Tokens Studio, component libraries, documentation
+  - name: DesignOps
+    detail: Process frameworks, metrics, team rituals, tooling, async workflows
+  - name: Research & UX
+    detail: User interviews, OOUX, journey mapping, prototyping, usability testing
+  - name: Training & Coaching
+    detail: Workshop design, facilitation, curriculum development
+- group: Languages
+  items:
+  - name: English
+    proficiency: Full professional proficiency
+  - name: Dutch
+    proficiency: Native or bilingual proficiency
+  - name: French
+    proficiency: Professional working proficiency
+  - name: German
+    proficiency: Limited working proficiency

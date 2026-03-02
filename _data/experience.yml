@@ -1,0 +1,154 @@
+---
+- company: Infinitas Learning
+  title: Principal Designer - Design Ops Lead
+  location: Belgium
+  start_date: January 2023
+  end_date: March 2026
+  description: Design ops, focusing on governing and building out a cross-brand, cross-product, AI integrated Design System.
+  highlights: &1
+  - Building, scaling and migrating to a shared design system across educational platforms within a multi-brand, multi-audience domain.
+  - Introduced design ops practices to unify design processes across product, brand, and content teams
+  - "> Aligned design maturity efforts across multiple European markets"
+- company: Infinitas Learning Holding B.V.
+  title: Principle designer
+  location: ''
+  start_date: August 2021
+  end_date: January 2023
+  description: "**Principal Designer & DesignOps Lead**"
+  highlights: *1
+- company: T-shaped Academy
+  title: Design Instructor
+  location: ''
+  start_date: '2021'
+  end_date: Present
+  description: Developed and taught curriculum on design operations, service- and UX design. Helped upskill both early-career designers and seasoned product teams.
+  highlights:
+  - Developed and taught curriculum on design operations, service- and UX design
+- company: Plantyn
+  title: User Experience Designer
+  location: ''
+  start_date: February 2020
+  end_date: August 2021
+  description: ''
+  highlights: []
+- company: Colruyt Group
+  title: Digital Strategist
+  location: Halle, Belgium
+  start_date: January 2020
+  end_date: March 2020
+  description: ''
+  highlights: []
+- company: The Reference
+  title: Service Designer / conceptualist / Strategy Consultant
+  location: Ghent
+  start_date: October 2017
+  end_date: January 2023
+  description: "**UX & Service Design/Digital Strategy Consultant**"
+  highlights: &2
+  - Led service design and UX projects in retail, publishing, and communications.
+  - Delivered research-driven design aligned with complex business and platform needs.
+- company: The Reference
+  title: UX & Service Design/Digital Strategy Consultant
+  location: ''
+  start_date: '2015'
+  end_date: '2023'
+  description: Led service design and UX projects in retail, publishing, and communications. Delivered research-driven design aligned with complex business and platform needs.
+  highlights: *2
+- company: Ogilvy & Mather Brussel
+  title: Senior Digital Producer
+  location: brussels area, belgium
+  start_date: June 2014
+  end_date: August 2015
+  description: Infusing new digital knowledge and pinpoint opportunities. Consult in pitch phases and provide practical follow-up and project management for new digital projects.
+  highlights: []
+- company: CrossCheck - Strategic Web Technology
+  title: Functional Analyst, UX & Wireframing
+  location: ghent
+  start_date: January 2013
+  end_date: May 2014
+  description: Conceptualising websites with a passion. Implementing proper UX, visualisation by wireframes and functional analysis.
+  highlights: []
+- company: CrossCheck
+  title: App Director
+  location: Ghent
+  start_date: January 2013
+  end_date: May 2014
+  description: Mobile app conceptualisation and visualisation through proper UX implementation and wireframing. Integration with Drupal's upcoming API functionality for native and web apps alike.
+  highlights: []
+- company: dotProjects
+  title: Project Manager
+  location: ''
+  start_date: '2010'
+  end_date: January 2013
+  description: Managing Drupal and mobile implementations. Defining functionality through client communication, information architecture, functional analysis, and wireframing. Resource planning
+  highlights: []
+- company: Cross Language
+  title: Consultant
+  location: ''
+  start_date: '2010'
+  end_date: May 2014
+  description: Functional analysis and UI design for translation related digital projects.
+  highlights: []
+- company: cvo KISP Volwssenenonderwijs
+  title: Instructor
+  location: ''
+  start_date: April 2008
+  end_date: January 2011
+  description: Instructor on Content Management with Drupal, Podcasting 1on1, iLife.
+  highlights: []
+- company: XLent Solutions
+  title: System Specialist
+  location: ''
+  start_date: February 2008
+  end_date: May 2008
+  description: Product Specialist on Xlent's AutoCatalog implementations for Canto Cumulus Asset Management Solutions.
+  highlights: []
+- company: EPC nv  -  de Persgroep Publishing
+  title: Preflight Expert
+  location: ''
+  start_date: '2008'
+  end_date: '2010'
+  description: At EPC Lokeren I'm part of a diversified team that does ad/foto preflighting/correction. This includes Flow setup in Enfocus FullSwitch, GMG, Pitstop.
+  highlights: []
+- company: NeatLittleMacApps.com
+  title: Producer/webmaster
+  location: ''
+  start_date: May 2006
+  end_date: June 2010
+  description: the NeatLittleMacApps is home to my NLMA podcast.
+  highlights: []
+- company: Podguides.net
+  title: Producer/Webmaster
+  location: ''
+  start_date: January 2005
+  end_date: April 2011
+  description: created and manages the PodGuides.net community site, where people can share their own podguides with the world.
+  highlights: []
+- company: De Persgroep Publishing
+  title: IT De Morgen
+  location: ''
+  start_date: '2002'
+  end_date: '2008'
+  description: ''
+  highlights: []
+- company: De Morgen
+  title: IT/Production/Helpdesk
+  location: ''
+  start_date: '2002'
+  end_date: February 2008
+  description: ''
+  highlights: []
+- company: Vacature.com
+  title: Graphic designer / IT
+  location: ''
+  start_date: January 1999
+  end_date: September 2002
+  description: Mainly Graphic design, with a pinch of IT and computer support.
+  highlights: []
+- company: Uitgeverij 't Hooft
+  title: Graphic designer
+  location: ''
+  start_date: '1997'
+  end_date: January 1999
+  description: Mainly graphic design with a pinch of repro and imposition.
+  highlights: []

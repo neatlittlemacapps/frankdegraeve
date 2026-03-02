@@ -1,54 +1,66 @@
 ---
 layout: default
-title: Home
-nav_order: 1
-description: "Infinitas Learning Design System documentation - foundations, guidelines, components, and design tokens."
+title: Frank De Graeve
+description: "I build systems, not screens. DesignOps, UX Strategy, and AI Adoption — helping teams scale design impact and AI fluency."
 permalink: /
 ---
 
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 4rem 2rem; margin: -3rem -2rem 3rem -2rem; color: white; border-radius: 0 0 16px 16px;">
-  <h1 style="color: white; font-size: 3rem; margin: 0 0 1rem 0;">Infinitas Learning Design System</h1>
-  <p style="font-size: 1.25rem; opacity: 0.95; max-width: 700px;">Comprehensive guidelines, components, and resources for building consistent user experiences across Infinitas Learning products.</p>
-  <p style="font-size: 0.875rem; opacity: 0.8; margin-top: 2rem;">Last updated: January 2026</p>
-</div>
+<section class="home-hero">
+  <h1>Hi, I'm Frank.</h1>
+  <p class="hero-tagline">I build systems, not screens. DesignOps &middot; UX Strategy &middot; AI Adoption &mdash; helping teams build the conditions to scale design impact and AI fluency.</p>
+  <div class="hero-cta">
+    <a href="{{ '/portfolio/' | relative_url }}" class="btn btn-primary">View Portfolio</a>
+    <a href="{{ '/cv/' | relative_url }}" class="btn btn-secondary">Read CV</a>
+  </div>
+</section>
 
-## Getting Started
+<hr class="visual-divider">
 
-<div class="card-grid">
-  <a href="{{ site.baseurl }}/foundations/" class="nav-card">
-    <div class="card-image">
-      <img src="{{ site.baseurl }}/assets/images/foundations-hero.png" alt="Foundations">
-    </div>
-    <div class="card-content">
-      <h3>Foundations</h3>
-      <p>Colors, typography, spacing, and core design principles.</p>
-    </div>
-  </a>
-  <a href="{{ site.baseurl }}/guidelines/" class="nav-card">
-    <div class="card-image">
-      <img src="{{ site.baseurl }}/assets/images/guidelines-hero.png" alt="Guidelines">
-    </div>
-    <div class="card-content">
-      <h3>Guidelines</h3>
-      <p>Best practices and usage guidelines for design and development.</p>
-    </div>
-  </a>
-  <a href="{{ site.baseurl }}/components/" class="nav-card">
-    <div class="card-image">
-      <img src="{{ site.baseurl }}/assets/images/components-hero.png" alt="Components">
-    </div>
-    <div class="card-content">
-      <h3>Components</h3>
-      <p>Reusable UI components and interaction patterns.</p>
-    </div>
-  </a>
-  <a href="{{ site.baseurl }}/tokens/" class="nav-card">
-    <div class="card-image">
-      <img src="{{ site.baseurl }}/assets/images/tokens-hero.png" alt="Tokens">
-    </div>
-    <div class="card-content">
-      <h3>Tokens</h3>
-      <p>Design tokens for consistent implementation across platforms.</p>
-    </div>
-  </a>
-</div>
+<section>
+  <div class="card-grid">
+    <a href="{{ '/blog/' | relative_url }}" class="nav-card">
+      <div class="card-content">
+        <h3>Blog</h3>
+        <p>Writing on design, development, and life building indie Mac apps.</p>
+      </div>
+    </a>
+    <a href="{{ '/portfolio/' | relative_url }}" class="nav-card">
+      <div class="card-content">
+        <h3>Portfolio</h3>
+        <p>Selected work — apps, client projects, design systems, and articles.</p>
+      </div>
+    </a>
+    <a href="{{ '/cv/' | relative_url }}" class="nav-card">
+      <div class="card-content">
+        <h3>CV</h3>
+        <p>Full career history with experience, skills, and education.</p>
+      </div>
+    </a>
+    <a href="{{ '/contact/' | relative_url }}" class="nav-card">
+      <div class="card-content">
+        <h3>Contact</h3>
+        <p>Get in touch for work enquiries, collaborations, or just to say hello.</p>
+      </div>
+    </a>
+  </div>
+</section>
+
+{% if site.posts.size > 0 %}
+<hr class="visual-divider">
+
+<section>
+  <h2>Recent Writing</h2>
+  <div class="card-grid">
+    {% for post in site.posts limit: 3 %}
+    <a href="{{ post.url | relative_url }}" class="nav-card">
+      <div class="card-content">
+        <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></p>
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.description | default: post.excerpt | strip_html | truncate: 100 }}</p>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  <p><a href="{{ '/blog/' | relative_url }}">All posts &rarr;</a></p>
+</section>
+{% endif %}

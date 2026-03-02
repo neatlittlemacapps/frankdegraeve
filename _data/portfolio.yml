@@ -1,0 +1,102 @@
+---
+- title: BARRY CALLEBAUT
+  slug: barry-callebaut
+  byline: Unified international multi-brand multi-product online platform
+  tags:
+  - Information Architecture
+  - Prototyping
+  - Site concept and definition
+  challenge: The company needed to consolidate up to 20 different brands, serving different regions and industries, into one complex website. A key part of this challenge was tailoring the product offering and content to three core industries and their target audiences, ensuring that product classes (e.g., liquid chocolate) were not mixed up with classes intended for a different audience (e.g., chocolate in bags).
+  approach: I conducted stakeholder interviews, workshops, and customer journey mapping. To address the challenge of separating product offerings, I created a **smart information architecture** that logically separated the products and content for each industry. This architecture also included pathways for audiences to easily explore other industries if they desired. I then co-created a prototype with user testing to validate this approach.
+  outcome: The new information architecture was successfully implemented, which directly addressed the complex product and content segmentation.
+  images:
+  - "/assets/images/portfolio/barry-callebaut/Slide22.png"
+  - "/assets/images/portfolio/barry-callebaut/Slide36.png"
+  - "/assets/images/portfolio/barry-callebaut/Slide21.png"
+  - "/assets/images/portfolio/barry-callebaut/Slide24.png"
+  - "/assets/images/portfolio/barry-callebaut/Slide27.png"
+- title: Colruyt Group Digital Communication Strategy
+  slug: colruyt-group-digital-communication
+  byline: Design sprint
+  tags:
+  - Facilitation
+  - Framework development
+  - strategy
+  challenge: The company needed a clear, usable, and supported digital communication strategy for its complex ecosystem of over 40 brands.
+  approach: I facilitated the definition of a new vision, mission, and strategic goals that were supported by all stakeholders. I achieved this by, amongst other techniques and initiatives, applying the **LEGO Serious Play facilitation technique**, which I am certified in. This resulted in simple guiding principles and a framework for continuous adaptation of the ever changing landscape at Colruyt.
+  outcome: The strategy is now clear and supported by all stakeholders. The new framework allows employees to take action and understand what content to create, for whom, and where it should live in the digital ecosystem, enabling them to adjust their approach in real-time in line with any new changes that might arise. This framework is not only a deliverable but a functional tool that lives in the day to day workings.
+  images:
+  - "/assets/images/portfolio/colruyt-group-digital-communication/Picture1.png"
+- title: 'Creativity & Innovation: Prototypes and Concepts'
+  slug: creativity-innovation-prototypes
+  byline: ''
+  tags:
+  - Creativity
+  - Some wacky stuff here ;)
+  challenge: ''
+  approach: ''
+  outcome: ''
+  images:
+  - "/assets/images/portfolio/creativity-innovation-prototypes/Screenshot_2025-09-09_at_17.23.42.png"
+  - "/assets/images/portfolio/creativity-innovation-prototypes/Screenshot_2025-09-09_at_17.21.44.png"
+  - "/assets/images/portfolio/creativity-innovation-prototypes/Casebook.png"
+  - "/assets/images/portfolio/creativity-innovation-prototypes/Screenshot_2025-09-09_at_17.23.00.png"
+  - "/assets/images/portfolio/creativity-innovation-prototypes/Screenshot_2025-08-20_at_22.26.22.png"
+  - "/assets/images/portfolio/creativity-innovation-prototypes/Screenshot_2025-09-09_at_17.26.52.png"
+  - "/assets/images/portfolio/creativity-innovation-prototypes/Screenshot_2025-09-09_at_17.20.25.png"
+  - "/assets/images/portfolio/creativity-innovation-prototypes/Screenshot_2025-08-20_at_22.26.52.png"
+- title: DELA
+  slug: dela
+  byline: 300% Conversion rate increase by fundamentally rethinking online intake.
+  tags:
+  - Conversion optimisation
+  - Interaction design
+  - UX Design
+  challenge: The company's online insurance quote request form had a low conversion rate due to too many barriers.
+  approach: I conducted user research and workshops with stakeholders to simplify the process and reduce cognitive load. I considerably grew the number of steps but I lowered the cognitive load for each step. To mitigate the growth in steps I defined smart pre and post flow actions and I introduced motion design to induce a perceived sense of speed for the user.
+  outcome: The conversion rate improved by 300% on mobile and 211% on desktop, exceeding the estimated 30% improvement.
+  images:
+  - "/assets/images/portfolio/dela/Slide7.png"
+  - "/assets/images/portfolio/dela/Slide10.png"
+  - "/assets/images/portfolio/dela/Slide11.png"
+  - "/assets/images/portfolio/dela/Slide9.png"
+  - "/assets/images/portfolio/dela/Slide8.png"
+  - "/assets/images/portfolio/dela/image.png"
+- title: Scaling Design Maturity Through Operations @Infinitas Learning
+  slug: scaling-design-maturity-through
+  byline: Implementing design operations in a new international educational
+  tags:
+  - Design System
+  - Design operations
+  challenge: |-
+    Infinitas Learning faced a familiar yet complex problem: **how do you raise design maturity across multiple legacy brands without breaking what's already working?**
+
+    As a young organisation born from merging several publishers, they had multiple live platforms in active development—but no shared operations connecting design, research, and creative work. This fragmentation made it impossible to scale consistency, efficiency, or user-centred practices across their growing portfolio.
+
+    ---
+  approach: ''
+  outcome: ''
+  images: []
+- title: VANDERSANDEN
+  slug: vandersanden
+  byline: New International web platform
+  tags:
+  - Customer Journey
+  - Functional analysis
+  - Information Architecture
+  - Prototyping
+  - Service Blueprinting
+  - Site concept and definition
+  challenge: To create a new international website that would cater to a wide range of customers with a broad product offering.
+  approach: I held on-site workshops and conducted customer interviews to understand the business, products, and customer segments. I also performed customer journey mapping, service blueprinting, and a Jobs to Be Done workshop to define and prioritize solutions. Finally, I performed user testing on prototypes and collaborated on the final designs.
+  outcome: The new information architecture was successfully implemented, catering to multiple segments, including architects, engineers, and end-customers. The smart information architecture provides a solid platform that enables a solid content strategy. All content is intuitively findable and interconnected resulting in a contextually relevant experience.
+  images:
+  - "/assets/images/portfolio/vandersanden/Slide61.png"
+  - "/assets/images/portfolio/vandersanden/Slide60.png"
+  - "/assets/images/portfolio/vandersanden/Screenshot_2025-08-20_at_21.59.54.png"
+  - "/assets/images/portfolio/vandersanden/Slide64.png"
+  - "/assets/images/portfolio/vandersanden/Slide59.png"
+  - "/assets/images/portfolio/vandersanden/Slide68.png"
+  - "/assets/images/portfolio/vandersanden/Slide54.png"
+  - "/assets/images/portfolio/vandersanden/Slide52.png"
+  - "/assets/images/portfolio/vandersanden/Slide51.png"

@@ -1,5 +1,9 @@
 <footer class="site-footer">
   <div class="footer-container">
-    <p>&copy; 2026 Infinitas Learning. Design System Documentation.</p>
+    <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}.
+      {% if site.author.twitter %}<a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" rel="noopener">Twitter</a> &middot;{% endif %}
+      {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">GitHub</a>{% if site.author.linkedin %} &middot;{% endif %}{% endif %}
+      {% if site.author.linkedin %}<a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>{% endif %}
+    </p>
   </div>
 </footer>

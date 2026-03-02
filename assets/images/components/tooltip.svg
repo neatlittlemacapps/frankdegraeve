@@ -1,9 +1,0 @@
-<svg width="200" height="120" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
-  <rect width="200" height="120" fill="#f8f9fa"/>
-  <circle cx="100" cy="60" r="12" fill="#666" stroke="#999" stroke-width="2"/>
-  <text x="100" y="65" font-family="system-ui" font-size="14" fill="white" text-anchor="middle" font-weight="bold">i</text>
-  <rect x="110" y="38" width="70" height="24" rx="4" fill="#333"/>
-  <path d="M 108 50 L 110 46 L 110 54 Z" fill="#333"/>
-  <text x="145" y="52" font-family="system-ui" font-size="10" fill="white" text-anchor="middle">Tooltip text</text>
-  <text x="100" y="100" font-family="system-ui" font-size="12" fill="#666" text-anchor="middle">Tooltip</text>
-</svg>
