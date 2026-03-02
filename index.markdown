@@ -6,11 +6,16 @@ permalink: /
 ---
 
 <section class="home-hero">
-  <h1>Hi, I'm Frank.</h1>
-  <p class="hero-tagline">I build systems, not screens. DesignOps &middot; UX Strategy &middot; AI Adoption &mdash; helping teams build the conditions to scale design impact and AI fluency.</p>
-  <div class="hero-cta">
-    <a href="{{ '/portfolio/' | relative_url }}" class="btn btn-primary">View Portfolio</a>
-    <a href="{{ '/cv/' | relative_url }}" class="btn btn-secondary">Read CV</a>
+  <div class="hero-text">
+    <h1>Hi, I'm Frank.</h1>
+    <p class="hero-tagline">I build systems, not screens. DesignOps &middot; UX Strategy &middot; AI Adoption &mdash; helping teams build the conditions to scale design impact and AI fluency.</p>
+    <div class="hero-cta">
+      <a href="{{ '/portfolio/' | relative_url }}" class="btn btn-primary">View Portfolio</a>
+      <a href="{{ '/cv/' | relative_url }}" class="btn btn-secondary">Read CV</a>
+    </div>
+  </div>
+  <div class="hero-photo">
+    <img src="{{ '/assets/images/frank-hero.jpg' | relative_url }}" alt="Frank De Graeve" width="220" height="220">
   </div>
 </section>
 
