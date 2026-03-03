@@ -60,8 +60,8 @@
               
                   {% if post.image %}
                   <div class="image-wrap">
-                    <a class="article__image" href="{{ post.url }}">
-                      <img loading="lazy" src="{{ post.image }}" alt="{{ post.title }}">
+                    <a class="article__image" href="{{ post.url | relative_url }}">
+                      <img loading="lazy" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
                     </a>
                   </div>
                   {% endif %}
@@ -77,7 +77,7 @@
                     {% endif %}
               
                     <h2 class="article__title">
-                      <a href="{{ post.url }}">{{ post.title }}</a>
+                      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
                     </h2>
               
                     <p class="article__excerpt">
@@ -87,7 +87,7 @@
               
                     <div class="article__meta">
                       <div class="article__author-image">
-                        <img loading="lazy" src="{{ site.data.author.author_image }}" alt="{{ site.data.author.author_name }}">
+                        <img loading="lazy" src="{{ site.data.author.author_image | relative_url }}" alt="{{ site.data.author.author_name }}">
                       </div>
                       <div class="article-info">
                         <div class="article__author-name">{{ site.data.author.author_name }}</div>
