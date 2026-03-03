@@ -1,0 +1,12 @@
+{
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.sass-cache": true,
+    "**/.jekyll-cache": true,
+    "_site": true,
+    "node_modules": true,
+    "site/vendor": true,
+    "site/.bundle": true,
+    "site/Gemfile.lock": true
+  }
+}
