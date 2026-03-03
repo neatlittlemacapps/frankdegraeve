@@ -1,6 +1,6 @@
 title: Frank De Graeve
 url: "https://neatlittlemacapps.github.io"
-baseurl: "/neatlittlemacapps-blog"
+baseurl: "/frankdegraeve"
 
 plugins:
   - jekyll-bookshop

@@ -1,4 +1,4 @@
-name: Build and Deploy to GitHub Pages
+name: Build and Deploy
 
 on:
   push:
@@ -28,22 +28,20 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3"
-          bundler-cache: false
+          working-directory: site
+          bundler-cache: true
 
-      - name: Install Node dependencies (Bookshop)
+      - name: Install Bookshop
         run: npm ci
 
-      - name: Install Ruby gems
-        run: bundle install
-        working-directory: site
-
-      - name: Build Jekyll site
+      - name: Build Jekyll
         run: bundle exec jekyll build --source site --destination _site
+        working-directory: .
         env:
           JEKYLL_ENV: production
+          BUNDLE_GEMFILE: site/Gemfile
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
 
@@ -54,6 +52,5 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
+      - id: deployment
         uses: actions/deploy-pages@v4
