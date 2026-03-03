@@ -1,0 +1,20 @@
+---
+layout: none
+permalink: /llms.txt
+---
+# Frank De Graeve
+
+> Design Director specialising in DesignOps, UX Strategy, and AI Adoption. Based in Belgium. Creator of Yokogaki handmade notebooks.
+
+## Portfolio
+{% for project in site.projects %}- [{{ project.title }}]({{ project.url | absolute_url }}){% if project.subtitle %}: {{ project.subtitle }}{% elsif project.description %}: {{ project.description | strip_html | truncate: 120 }}{% endif %}
+{% endfor %}
+## Blog
+{% for post in site.posts %}- [{{ post.title }}]({{ post.url | absolute_url }}){% if post.description %}: {{ post.description | strip_html | truncate: 120 }}{% endif %}
+{% endfor %}
+## Pages
+
+- [About]({{ '/about/' | absolute_url }}): Background, experience and skills of Frank De Graeve.
+- [Portfolio]({{ '/projects/' | absolute_url }}): Selected design and strategy work.
+- [Blog]({{ '/blog/' | absolute_url }}): Writing on design, operations, and craft.
+- [Contact]({{ '/contact/' | absolute_url }}): Get in touch.

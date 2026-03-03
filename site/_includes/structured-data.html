@@ -1,0 +1,60 @@
+{% if page.layout == "post" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ page.title | jsonify }},
+  "description": {% if page.description %}{{ page.description | jsonify }}{% else %}{{ page.excerpt | strip_html | truncate: 160 | jsonify }}{% endif %},
+  "image": "{{ page.image | absolute_url }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+  "author": {"@type": "Person", "name": "Frank De Graeve", "url": "{{ '/' | absolute_url }}"},
+  "publisher": {"@type": "Person", "name": "Frank De Graeve", "url": "{{ '/' | absolute_url }}"},
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | absolute_url }}"
+  }
+}
+</script>
+
+{% elsif page.layout == "project" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": {{ page.title | jsonify }},
+  "description": {% if page.description %}{{ page.description | jsonify }}{% elsif page.subtitle %}{{ page.subtitle | jsonify }}{% else %}{{ page.excerpt | strip_html | truncate: 160 | jsonify }}{% endif %},
+  "image": "{{ page.image | absolute_url }}",
+  "dateCreated": "{{ page.date | date: '%Y' }}",
+  "creator": {"@type": "Person", "name": "Frank De Graeve", "url": "{{ '/' | absolute_url }}"},
+  "url": "{{ page.url | absolute_url }}"
+}
+</script>
+
+{% else %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "{{ site.url }}{{ site.baseurl }}/#website",
+      "url": "{{ site.url }}{{ site.baseurl }}/",
+      "name": {{ site.data.general_settings.title | jsonify }},
+      "description": {{ site.data.general_settings.description | jsonify }},
+      "author": {"@type": "Person", "name": "Frank De Graeve", "url": "{{ '/' | absolute_url }}"}
+    },
+    {
+      "@type": "Person",
+      "@id": "{{ '/' | absolute_url }}#person",
+      "name": "Frank De Graeve",
+      "url": "{{ '/' | absolute_url }}",
+      "jobTitle": "Design Director",
+      "description": "Design Director specialising in DesignOps, UX Strategy, and AI Adoption.",
+      "image": "{{ site.data.author.author_image | absolute_url }}",
+      "sameAs": ["https://github.com/frankdegraeve", "https://www.linkedin.com/in/frankdegraeve/", "https://www.instagram.com/yokogaki_shop/"]
+    }
+  ]
+}
+</script>
+{% endif %}
