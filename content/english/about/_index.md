@@ -7,30 +7,36 @@ layout: "about"
 draft: false
 ---
 
-I'm a UX designer and design strategist focused on the intersection of human-centered design and AI orchestration. Over the past decade, I've helped organizations of all sizes tackle complex design challenges, build scalable design systems, and create meaningful user experiences.
+After 15+ years split between agency, consulting, and in-house product leadership, I've learned that the most valuable design work is often invisible. It lives in the foundations — the operations, the principles, the documented ways of working that let teams move faster without losing coherence. Get that part right, and you unlock something powerful: the whole team and organization can focus on what their customers actually need.
 
-### What I Do
+That's what I build. Design systems, design operations, and the strategic frameworks that help organizations think in systems rather than one-off projects.
 
-**Design Leadership** — I've led design teams, built design operations from scratch, and established processes that empower designers to do their best work.
+## The Work
 
-**Design Systems** — I architect and implement design systems that scale, bridging the gap between designers, developers, and product teams.
+I spend my time in a few interconnected spaces. I lead design operations and build design systems from the ground up — the kind that bridge designers, developers, and product teams without feeling like bureaucracy. I work on UX strategy with organizations trying to figure out where design should actually lead. And increasingly, I'm helping teams think about how to integrate AI into their design practice in a way that sharpens the human role instead of sidelining it.
 
-**UX Strategy** — I work with organizations to define strategic design directions, conduct user research, and translate insights into impactful design solutions.
+That last bit matters more than it might seem. AI is changing parts of design — making some things more self-service, pushing the discipline toward orchestration and governance instead of pixel-pushing. But the role doesn't shrink. It pivots. It becomes about defining the principles that shape how systems behave for people, guiding coherence across complexity, and making sure experiences stay human, useful, and responsible at scale. That's the work I want to keep doing.
 
-**AI & Human Collaboration** — I'm exploring how AI can enhance (not replace) human creativity and design thinking, developing new paradigms for human-AI collaboration in design workflows.
+## How I Got Here
 
-### Background
+I started as a digital designer, but pretty quickly realized I was more interested in the bigger picture — how do you actually scale design thinking across an entire organization? How do you build the conditions that let teams move fast without losing coherence? That pulled me toward strategy and leadership roles, which took me through different industries (healthcare, retail, fintech, education) and different operating models (agency, consulting, in-house).
 
-I started my design career as a digital designer and quickly moved into strategy and leadership roles. I've worked across industries — from healthcare and education to retail and fintech — always focused on understanding user needs and building products that matter.
+Most recently, I spent just over three years at Infinitas Learning, a multi-brand EdTech organization, building design maturity from scratch. That meant establishing a design system and design operations practice, but it also meant making a deliberate decision to embed AI into the foundation from day one — not as a trend, but as a practical choice about how teams should work together. Before that, I spent seven years at The Reference doing service design and UX strategy work. I've also taught design at T-shaped Academy, worked as a designer at Plantyn, and held digital strategy and producer roles at places like Colruyt Group and Ogilvy earlier in my career.
 
-In recent years, I've become fascinated by how emerging technologies can be thoughtfully integrated into design practice. Rather than asking "what can AI do?", I ask "what should humans focus on, and how can AI support that?"
+Alongside all this, I've picked up certifications as a Certified Scrum Product Owner and Scrum Master, and I'm a LEGO Serious Play facilitator. I speak Dutch natively, English and French at a professional level, and I can get by in German.
 
-### Current Focus
+## What Others Say
 
-I'm exploring how AI can be orchestrated in design workflows — not to automate design decisions, but to augment human designers and make them more effective. I'm particularly interested in generative design tools that preserve human judgment, AI-assisted research and synthesis, new design patterns for AI interfaces, and building teams that thrive with AI tools.
+I'll let Maurizio Lupo, a senior engineering manager I worked with closely at Infinitas, say it better than I can:
 
-### Let's Connect
+> "I have worked with Frank on implementing the new design system for the platforms in Infinitas Learning. I had the chance to see him: creating a vision for the future of user experience, communicating the vision in an articulate and compelling manner, tracing the path to be able to achieve the vision, co-create a plan for its implementation, maintain alignment with the leadership while implementing the plan. He acted as a brilliant product and design counterpart for engineering."
 
-I'm always interested in conversations about design, strategy, and the future of how we build digital products. Whether you have a project in mind, want to explore ideas, or just want to chat over a coffee, I'd love to hear from you.
+That's the kind of partnership I aim for — clear vision, solid execution, and alignment with the people who make it real.
+
+## Let's Talk
+
+I'm looking for strategic work where I can build out design maturity and help organizations grow toward more mature, system-level thinking, with AI as a natural part of how teams operate. The domain doesn't matter much to me. The people do.
+
+If you want to talk about design, strategy, how AI fits into all this, or anything else — or if you just want to grab coffee and chat — I'd genuinely enjoy that.
 
 **[Let's have a coffee →](mailto:neatlittlemacapps@gmail.com)**
