@@ -2,8 +2,8 @@
 favicon = "images/favicon.png"
 logo = "images/logo.png"
 logo_darkmode = "images/logo-darkmode.png"
-logo_width = "160px"
-logo_height = "32px"
+logo_width = "48px"
+logo_height = "48px"
 logo_webp = true
 logo_text = "Frank De Graeve"
 navbar_fixed = true
@@ -40,9 +40,9 @@ content = ""
 
 [metadata]
 keywords = ["UX Design", "Design Operations", "AI Orchestration", "Portfolio"]
-description = "Senior UX Designer & Design Ops Lead exploring AI orchestration and conversational AI"
+description = "I build systems, not screens. Design Operations Lead specializing in UX strategy, design systems, and AI-driven workflows. Helping teams build the conditions to scale."
 author = "Frank De Graeve"
-image = "images/og-image.png"
+image = "images/og-image.jpg"
 
 [site_verification]
 google = ""
