@@ -10,6 +10,7 @@
   --color-body: #fafaf8;
   --color-border: #a0a0a0;
   --color-light: #F7C338;
+  --color-neutral: #f0f0f0;
   --color-dark: #273a07;
   --color-text: #4a4a4a;
   --color-text-dark: #1a1a1a;
@@ -20,6 +21,7 @@
   --color-darkmode-body: #1a1e14;
   --color-darkmode-border: #7a8260;
   --color-darkmode-light: #2a3a12;
+  --color-darkmode-neutral: #2a2a2a;
   --color-darkmode-dark: #f7f7f7;
   --color-darkmode-text: #d0d8c8;
   --color-darkmode-text-dark: #f7f7f7;

@@ -1,5 +1,5 @@
 @utility bg-gradient {
-  @apply bg-linear-to-b from-[#f0f0f0] from-[0.53%] to-white to-[83.28%] dark:from-[#2a2a2a] dark:to-darkmode-body;
+  @apply bg-linear-to-b from-neutral from-[0.53%] to-white to-[83.28%] dark:from-darkmode-neutral dark:to-darkmode-body;
 }
 
 /* form style */
