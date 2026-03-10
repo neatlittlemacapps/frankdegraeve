@@ -5,7 +5,7 @@
         "primary": "#405d06",
         "body": "#fafaf8",
         "border": "#a0a0a0",
-        "light": "#fdf6e3",
+        "light": "#F7C338",
         "dark": "#273a07"
       },
       "text_color": {
@@ -20,7 +20,7 @@
         "primary": "#7aa819",
         "body": "#1a1e14",
         "border": "#7a8260",
-        "light": "#2a2518",
+        "light": "#4a3a10",
         "dark": "#f7f7f7"
       },
       "text_color": {

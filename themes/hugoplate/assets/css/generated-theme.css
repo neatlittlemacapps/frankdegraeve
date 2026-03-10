@@ -6,42 +6,42 @@
 
 @theme {
   /* === Colors === */
-  --color-primary: #121212;
-  --color-body: #fff;
-  --color-border: #eaeaea;
-  --color-light: #f6f6f6;
-  --color-dark: #040404;
-  --color-text: #444444;
-  --color-text-dark: #040404;
-  --color-text-light: #717171;
+  --color-primary: #405d06;
+  --color-body: #fafaf8;
+  --color-border: #a0a0a0;
+  --color-light: #F7C338;
+  --color-dark: #273a07;
+  --color-text: #4a4a4a;
+  --color-text-dark: #1a1a1a;
+  --color-text-light: #707070;
 
   /* === Darkmode Colors === */
-  --color-darkmode-primary: #fff;
-  --color-darkmode-body: #1c1c1c;
-  --color-darkmode-border: #3E3E3E;
-  --color-darkmode-light: #222222;
-  --color-darkmode-dark: #fff;
-  --color-darkmode-text: #B4AFB6;
-  --color-darkmode-text-dark: #fff;
-  --color-darkmode-text-light: #B4AFB6;
+  --color-darkmode-primary: #7aa819;
+  --color-darkmode-body: #1a1e14;
+  --color-darkmode-border: #7a8260;
+  --color-darkmode-light: #4a3a10;
+  --color-darkmode-dark: #f7f7f7;
+  --color-darkmode-text: #d0d8c8;
+  --color-darkmode-text-dark: #f7f7f7;
+  --color-darkmode-text-light: #9aa590;
 
   /* === Font Families === */
-  --font-primary: Heebo, sans-serif;
-  --font-secondary: Signika, sans-serif;
+  --font-primary: Proza Libre, sans-serif;
+  --font-secondary: Cormorant Garamond, serif;
 
   /* === Font Sizes === */
   --text-base: 16px;
   --text-base-sm: 12.8px;
-  --text-h6: 1.2rem;
-  --text-h6-sm: 1.08rem;
-  --text-h5: 1.44rem;
-  --text-h5-sm: 1.296rem;
-  --text-h4: 1.728rem;
-  --text-h4-sm: 1.5552rem;
-  --text-h3: 2.0736rem;
-  --text-h3-sm: 1.86624rem;
-  --text-h2: 2.48832rem;
-  --text-h2-sm: 2.239488rem;
-  --text-h1: 2.9859839999999997rem;
-  --text-h1-sm: 2.6873856rem;
+  --text-h6: 1.25rem;
+  --text-h6-sm: 1.125rem;
+  --text-h5: 1.5625rem;
+  --text-h5-sm: 1.40625rem;
+  --text-h4: 1.953125rem;
+  --text-h4-sm: 1.7578125rem;
+  --text-h3: 2.44140625rem;
+  --text-h3-sm: 2.197265625rem;
+  --text-h2: 3.0517578125rem;
+  --text-h2-sm: 2.74658203125rem;
+  --text-h1: 3.814697265625rem;
+  --text-h1-sm: 3.4332275390625rem;
 }
