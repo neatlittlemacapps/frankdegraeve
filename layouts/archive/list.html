@@ -1,0 +1,42 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+
+  <section class="section">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-10">
+
+          {{/* Collect all archive posts and group by year */}}
+          {{ $pages := .RegularPagesRecursive }}
+          {{ $byYear := $pages.GroupByDate "2006" }}
+
+          {{ range $byYear }}
+            <div class="archive-year-group">
+              <h2 class="archive-year-heading">{{ .Key }}</h2>
+              <ul class="archive-post-list">
+                {{ range .Pages.ByDate }}
+                  <li class="archive-post-item">
+                    <time class="archive-post-date" datetime="{{ .Date.Format "2006-01-02" }}">
+                      {{ .Date.Format "Jan 2" }}
+                    </time>
+                    <span class="archive-post-title">
+                      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                      {{ with .Params.series }}
+                        <span class="archive-series-badge">{{ . }}</span>
+                      {{ end }}
+                    </span>
+                  </li>
+                {{ end }}
+              </ul>
+            </div>
+          {{ end }}
+
+          {{ if eq (len $pages) 0 }}
+            <p class="text-center text-text-light">No archived posts yet.</p>
+          {{ end }}
+
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

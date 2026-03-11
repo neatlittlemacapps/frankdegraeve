@@ -1,0 +1,145 @@
+{{ define "main" }}
+  <section class="section pt-7">
+    <div class="container">
+      <div class="row justify-center">
+        <article class="lg:col-10">
+
+          {{/* Archive banner */}}
+          <div class="mb-6 inline-block rounded bg-light px-3 py-1 text-sm text-text-light dark:bg-darkmode-light dark:text-darkmode-text-light">
+            <i class="fa-solid fa-box-archive mr-1"></i>
+            Archive
+            {{ with .Params.series }}
+              &middot; {{ . }}
+            {{ end }}
+          </div>
+
+          {{ $image := .Params.image }}
+          {{ if $image }}
+            <div class="mb-10">
+              {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "w-full rounded") }}
+              {{ with .Params.image_caption }}
+                <p class="mt-2 text-center text-sm text-text-light dark:text-darkmode-text-light">{{ . | markdownify }}</p>
+              {{ end }}
+            </div>
+          {{ end }}
+
+          <h1 class="h2 mb-4">
+            {{ .Title }}
+          </h1>
+
+          <ul class="mb-4">
+            <li class="mr-4 inline-block">
+              <a href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/">
+                <i class="fa-regular fa-circle-user mr-2"></i>{{ .Params.author }}
+              </a>
+            </li>
+            {{ $categories := .Params.categories }}
+            {{ if $categories }}
+              <li class="mr-4 inline-block">
+                <i class="fa-regular fa-folder mr-2"></i>
+                {{ range $i, $p := $categories }}
+                  <a
+                    href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"
+                    >{{ . | humanize }}{{ if ne $i (sub (len $categories) 1) }}, {{ end }}
+                  </a>
+                {{ end }}
+              </li>
+            {{ end }}
+            <li class="mr-4 inline-block">
+              <i class="fa-regular fa-clock mr-2"></i>
+              {{ time.Format ":date_long" .PublishDate }}
+            </li>
+          </ul>
+
+          {{/* Series navigation */}}
+          {{ with .Params.series }}
+            {{ $series := . }}
+            {{ $allInSeries := where (where site.RegularPages "Params.series" $series) "Section" "archive" }}
+            {{ $allInSeries = sort $allInSeries "Date" }}
+            {{ if gt (len $allInSeries) 1 }}
+              <details class="mb-8 rounded border border-border p-4 dark:border-darkmode-border">
+                <summary class="cursor-pointer font-semibold">
+                  <i class="fa-solid fa-list mr-2"></i>{{ $series }} ({{ len $allInSeries }} posts)
+                </summary>
+                <ol class="mt-3 list-inside list-decimal space-y-1 pl-2 text-sm">
+                  {{ range $allInSeries }}
+                    <li>
+                      {{ if eq $.RelPermalink .RelPermalink }}
+                        <strong>{{ .Title }}</strong> <span class="text-text-light">(you are here)</span>
+                      {{ else }}
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                      {{ end }}
+                    </li>
+                  {{ end }}
+                </ol>
+              </details>
+            {{ end }}
+          {{ end }}
+
+          <div class="content mb-10">
+            {{ .Content }}
+          </div>
+
+          <div class="row items-start justify-between">
+            {{ $tags := .Params.tags }}
+            {{ if $tags }}
+              <div class="mb-10 flex items-center">
+                <h5 class="mr-3">{{ T "tags" | default "Tags" }} :</h5>
+                <ul>
+                  {{ range $i, $p := $tags }}
+                    <li class="inline-block">
+                      <a
+                        class="bg-light hover:bg-primary dark:bg-darkmode-light dark:hover:bg-darkmode-primary dark:hover:text-text-dark m-1 block rounded px-3 py-1 hover:text-white"
+                        href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/">
+                        {{ . | humanize }}
+                      </a>
+                    </li>
+                  {{ end }}
+                </ul>
+              </div>
+            {{ end }}
+          </div>
+
+          {{/* Previous/Next in series */}}
+          {{ with .Params.series }}
+            {{ $series := . }}
+            {{ $allInSeries := where (where site.RegularPages "Params.series" $series) "Section" "archive" }}
+            {{ $allInSeries = sort $allInSeries "Date" }}
+            {{ if gt (len $allInSeries) 1 }}
+              <div class="mt-8 flex items-center justify-between border-t border-border pt-6 dark:border-darkmode-border">
+                {{ $found := false }}
+                {{ $prev := false }}
+                {{ $next := false }}
+                {{ range $i, $p := $allInSeries }}
+                  {{ if eq $.RelPermalink $p.RelPermalink }}
+                    {{ if gt $i 0 }}
+                      {{ $prev = index $allInSeries (sub $i 1) }}
+                    {{ end }}
+                    {{ if lt $i (sub (len $allInSeries) 1) }}
+                      {{ $next = index $allInSeries (add $i 1) }}
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+                <div>
+                  {{ with $prev }}
+                    <a href="{{ .RelPermalink }}" class="text-sm">
+                      <i class="fa-solid fa-arrow-left mr-1"></i> Previous in series
+                    </a>
+                  {{ end }}
+                </div>
+                <div>
+                  {{ with $next }}
+                    <a href="{{ .RelPermalink }}" class="text-sm">
+                      Next in series <i class="fa-solid fa-arrow-right ml-1"></i>
+                    </a>
+                  {{ end }}
+                </div>
+              </div>
+            {{ end }}
+          {{ end }}
+
+        </article>
+      </div>
+    </div>
+  </section>
+{{ end }}

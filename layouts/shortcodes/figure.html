@@ -1,0 +1,54 @@
+{{/*
+  Figure shortcode with caption and byline support
+
+  Usage:
+    {{< figure src="images/photo.jpg" alt="Description" caption="What this shows" byline="Photo by Someone" >}}
+    {{< figure src="images/photo.jpg" alt="Description" caption="What this shows" byline="© The Reference" class="wide" >}}
+
+  Parameters:
+    src      - Image path (relative to page bundle or /images/)
+    alt      - Alt text (required for accessibility)
+    caption  - Caption text below image
+    byline   - Attribution/credit line (renders smaller, below caption)
+    class    - Additional CSS classes (e.g. "wide" for full-width)
+    link     - Optional link wrapping the image
+*/}}
+
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $caption := .Get "caption" }}
+{{ $byline := .Get "byline" }}
+{{ $class := .Get "class" | default "" }}
+{{ $link := .Get "link" }}
+
+<figure class="my-8 {{ $class }}">
+  {{ if $link }}
+    <a href="{{ $link }}" target="_blank" rel="noopener">
+  {{ end }}
+
+  {{/* Try page bundle resource first, fall back to static path */}}
+  {{ $image := .Page.Resources.GetMatch $src }}
+  {{ if $image }}
+    <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}" class="w-full rounded" loading="lazy" />
+  {{ else }}
+    <img src="{{ $src | relURL }}" alt="{{ $alt }}" class="w-full rounded" loading="lazy" />
+  {{ end }}
+
+  {{ if $link }}
+    </a>
+  {{ end }}
+
+  {{ if or $caption $byline }}
+    <figcaption class="mt-2 text-center text-sm text-text-light dark:text-darkmode-text-light">
+      {{ with $caption }}
+        <span>{{ . | markdownify }}</span>
+      {{ end }}
+      {{ if and $caption $byline }}
+        <br />
+      {{ end }}
+      {{ with $byline }}
+        <span class="text-xs italic opacity-75">{{ . | markdownify }}</span>
+      {{ end }}
+    </figcaption>
+  {{ end }}
+</figure>

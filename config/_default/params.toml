@@ -27,7 +27,7 @@ link = "mailto:neatlittlemacapps@gmail.com"
 [search]
 enable = true
 primary_color = "#405d06"
-include_sections = ["blog"]
+include_sections = ["blog", "archive"]
 show_image = true
 show_description = true
 show_tags = true
