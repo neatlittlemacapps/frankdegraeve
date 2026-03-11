@@ -1,9 +1,11 @@
 <div class="bg-body dark:bg-darkmode-body">
   {{ $image:= .Params.image }}
   {{ if $image }}
-    {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 w-full rounded") }}
+    <div class="mb-6 h-48 w-full overflow-hidden rounded">
+      {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "h-full w-full object-cover") }}
+    </div>
   {{ end }}
-  <h4 class="mb-3">
+  <h4 class="mb-3 line-clamp-2">
     <a href="{{ .RelPermalink }}">
       {{ .Title }}
     </a>
@@ -30,7 +32,7 @@
       </li>
     </ul>
   {{ end }}
-  <p class="mb-6">{{ .Summary | plainify }}</p>
+  <p class="mb-6 line-clamp-3">{{ .Summary | plainify }}</p>
   <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">
     {{ T "read_more" | default "Read More" }}
   </a>

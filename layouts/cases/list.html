@@ -10,12 +10,12 @@
             <div class="bg-body dark:bg-darkmode-body rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
               {{ $image:= .Params.image }}
               {{ if $image }}
-                <a href="{{ .RelPermalink }}">
-                  {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "w-full") }}
+                <a href="{{ .RelPermalink }}" class="block h-48 w-full overflow-hidden">
+                  {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "h-full w-full object-cover") }}
                 </a>
               {{ end }}
               <div class="p-6">
-                <h4 class="mb-3">
+                <h4 class="mb-3 line-clamp-2">
                   <a href="{{ .RelPermalink }}">
                     {{ .Title }}
                   </a>
@@ -28,7 +28,7 @@
                     {{ end }}
                   </div>
                 {{ end }}
-                <p class="mb-4 text-text dark:text-darkmode-text">{{ .Description | default (.Summary | plainify) }}</p>
+                <p class="mb-4 line-clamp-3 text-text dark:text-darkmode-text">{{ .Description | default (.Summary | plainify) }}</p>
                 <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">
                   {{ T "read_more" | default "Read More" }}
                 </a>
