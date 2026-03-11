@@ -123,6 +123,11 @@ figure.wide {
   position: relative;
   display: block;
   overflow: hidden;
+  background-color: var(--color-body);
+}
+
+.dark .duotone {
+  background-color: var(--color-darkmode-body);
 }
 
 .duotone img {
