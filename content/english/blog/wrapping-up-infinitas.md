@@ -3,7 +3,7 @@ title: "Wrapping Up a Chapter at Infinitas Learning"
 meta_title: "Frank De Graeve on Design Systems and AI-First UX"
 description: "Reflections on building design maturity, scaling design systems, and the future of UX in an AI-native world."
 date: 2026-02-26T15:37:00+01:00
-image: "/images/teasers/new_journey.jpg"
+image: "/images/teasers/new_journey.png"
 categories: ["DesignOps"]
 author: "Frank De Graeve"
 tags: ["designops", "design-systems", "ai", "career"]
