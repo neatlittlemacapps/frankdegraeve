@@ -116,36 +116,21 @@ figure.wide {
 }
 
 /* --- Duotone image effect for colored sections ---
-   Use: wrap an image in <div class="duotone"> inside a bg-light section.
-   Light mode (yellow bg): green overlay via --color-primary
-   Dark mode (green bg): yellow overlay via --color-darkmode-primary */
+   Pure CSS filter approach — respects PNG transparency.
+   Light mode (yellow bg): green tint
+   Dark mode (green bg): yellow tint */
 .duotone {
-  position: relative;
   display: block;
-  background-color: var(--color-body);
-}
-
-.dark .duotone {
-  background-color: var(--color-darkmode-body);
 }
 
 .duotone img {
-  filter: grayscale(1) contrast(1.1);
   display: block;
   width: 100%;
+  filter: grayscale(1) sepia(1) hue-rotate(50deg) saturate(3) brightness(0.65);
 }
 
-.duotone::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-color: var(--color-primary);
-  mix-blend-mode: color;
-  pointer-events: none;
-}
-
-.dark .duotone::after {
-  background-color: var(--color-darkmode-primary);
+.dark .duotone img {
+  filter: grayscale(1) sepia(1) hue-rotate(10deg) saturate(2.5) brightness(1.05);
 }
 
 /* --- Video embed responsive wrapper --- */
