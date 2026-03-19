@@ -22,7 +22,7 @@ env:
   HUGO_ENV: production
   HUGO_VERSION: "0.151.0"
   GO_VERSION: "1.23.3"
-  NODE_VERSION: "20"
+  NODE_VERSION: "22"
 
 jobs:
   # Build job
