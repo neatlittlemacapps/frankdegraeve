@@ -1,6 +1,6 @@
 <div class="bg-body dark:bg-darkmode-body">
   {{ $image:= .Params.image }}
-  {{ if $image }}
+  {{ if and $image (ne $image "") }}
     <div class="mb-6 h-48 w-full overflow-hidden rounded">
       {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "h-full w-full object-cover") }}
     </div>

@@ -9,7 +9,7 @@
           <div class="md:col-6 lg:col-4 mb-14">
             <div class="bg-body dark:bg-darkmode-body rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
               {{ $image:= .Params.image }}
-              {{ if $image }}
+              {{ if and $image (ne $image "") }}
                 <a href="{{ .RelPermalink }}" class="block h-48 w-full overflow-hidden">
                   {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "h-full w-full object-cover") }}
                 </a>
