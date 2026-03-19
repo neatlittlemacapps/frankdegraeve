@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/english/blog/wrapping-up-a-chapter-at-infinitas-learning.md",
+                "file": "content/english/blog/the-bot-chronicles-s01e01-crashcourse.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "wrapping-up-a-chapter-at-infinitas-learning"
+              "title": "the-bot-chronicles-s01e01-crashcourse"
             }
           }
         ]
@@ -180,8 +180,29 @@
       "bases:Create new base": false
     }
   },
-  "active": "deb180213384ae8b",
+  "active": "03ea4d6fb453741a",
   "lastOpenFiles": [
+    "content/english/blog/stop-expecting-to-hire-miracle-workers.md",
+    "content/english/blog/starting-fresh.md",
+    "content/english/blog/wrapping-up-a-chapter-at-infinitas-learning.md",
+    "content/english/blog/the-bot-chronicles-s01e09-domains-contexts-intents-and-entities.md",
+    "content/english/blog/the-bot-chronicles-s01e08-sneaky-bastards-them-bots.md",
+    "content/english/blog/the-bot-chronicles-s01e08.md",
+    "content/english/blog/the-bot-chronicles-s01e07-how-to-define-your-bot-functionality.md",
+    "content/english/blog/the-bot-chronicles-s01e06-how-to-define-your-bot-personality.md",
+    "content/english/blog/the-bot-chronicles-s01e05-how-to-define-for-whom-to-build-your-bot.md",
+    "content/english/blog/the-bot-chronicles-s01e03-voice-first-and-what-this-means-in-an-international-context.md",
+    "content/english/blog/the-bot-chronicles-s01e02-r-and-d-definition.md",
+    "content/english/blog/the-bot-chronicles-s01e01-crashcourse.md",
+    "content/english/blog/start-creating-3d-assets-from-your-products-as-in-now.md",
+    "content/english/blog/chatbot-development-for-the-masses.md",
+    "content/english/blog/bot-chronicles-epilogue.md",
+    "{{<.md",
+    "Users/frank/Documents/Projects/Techo.md",
+    "Users/frank/Documents/Projects",
+    "Users/frank/Documents",
+    "Users/frank",
+    "Users",
     "assets/images/medium/0_9D0J37m40h83A-RT.jpg",
     "assets/images/medium/1_koBoXO7g4i-B59rLjw0NJw.png",
     "assets/images/medium/1_x9KxDWiztrF9Gpq_qbQZgA.jpeg",
@@ -192,33 +213,16 @@
     "assets/images/medium/1_c1LDMH5vbnIz9rmAka8Hwg.png",
     "assets/images/medium/1_bQlRSzFHJEmF4Q7PyrLgng.gif",
     "assets/images/medium/1_bL3JW81RNW5B25yA21_ihQ.png",
-    "assets/images/medium/1_aA8RfHb3gGRA4RcvuyAsvQ.png",
     "assets/images/medium",
-    "content/english/blog/the-bot-chronicles-s01e09-domains-contexts-intents-and-entities.md",
-    "content/english/blog/wrapping-up-a-chapter-at-infinitas-learning.md",
     "content/english/blog/_index.md",
     "content/english/blog/archive/2026/02/_index.md",
     "content/english/blog/archive/2017/01/_index.md",
     "_fileClasses/blog-post.md",
-    "content/english/blog/the-bot-chronicles-s01e08-sneaky-bastards-them-bots.md",
-    "content/english/blog/the-bot-chronicles-s01e08.md",
-    "content/english/blog/the-bot-chronicles-s01e07-how-to-define-your-bot-functionality.md",
-    "content/english/blog/the-bot-chronicles-s01e06-how-to-define-your-bot-personality.md",
-    "content/english/blog/the-bot-chronicles-s01e05-how-to-define-for-whom-to-build-your-bot.md",
-    "content/english/blog/the-bot-chronicles-s01-e01-crashcourse.md",
-    "content/english/blog/the-bot-chronicles-s01e02-r-and-d-definition.md",
-    "content/english/blog/the-bot-chronicles-s01e03-voice-first-and-what-this-means-in-an-international-context.md",
-    "content/english/blog/stop-expecting-to-hire-miracle-workers.md",
     "content/english/cases/corilus-design-system.md",
     "content/english/_index.md",
     "content/english/blog/to-add-to-the-matter-youve-missed-their-awkward-clashing-viewpoints-on-design-systems-vs-dev.md",
-    "content/english/blog/bot-chronicles-epilogue.md",
     "content/english/cases/infinitas-designops.md",
     "content/english/cases/_index.md",
-    "content/english/blog/chatbot-development-for-the-masses.md",
-    "content/english/blog/start-creating-3d-assets-from-your-products-as-in-now.md",
-    "content/english/blog/starting-fresh.md",
-    "content/english/blog/the-bot-chronicles-s01e05-how-to-define-for-whom-to-build-yo.md",
     "static/images/medium",
     "static/images"
   ]

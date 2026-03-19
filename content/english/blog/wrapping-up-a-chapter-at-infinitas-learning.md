@@ -43,4 +43,3 @@ I'm looking for my next challenge: a strategic role where I can build this out w
 ## The People Made It Meaningful
 
 Beyond the work, I enjoyed collaborating with the people at Infinitas. They're a mission-driven team centered on learning and impact. If you think about people with an amazing, ongoing passion for providing educational solutions that support teachers and learners in the best way possible, you're thinking of them. They made this journey especially meaningful.
-

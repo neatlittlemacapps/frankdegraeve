@@ -14,7 +14,6 @@ tags:
 - career
 draft: false
 ---
-
 This site exists because I wanted a place to think out loud. About design, about AI, about what happens when the two collide in ways that actually matter.
 
 I've spent 15+ years in design across agencies, consulting, and in-house product teams. Most recently, three years at Infinitas Learning building design operations and a multi-brand design system from scratch. Before that, seven years at The Reference doing service design and UX strategy. Along the way, I've taught design at T-shaped Academy and held roles at places like Plantyn, Colruyt Group, and Ogilvy.
