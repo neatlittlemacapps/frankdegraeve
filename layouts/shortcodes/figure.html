@@ -26,12 +26,17 @@
     <a href="{{ $link }}" target="_blank" rel="noopener">
   {{ end }}
 
-  {{/* Try page bundle resource first, fall back to static path */}}
+  {{/* Try page bundle resource first, then global assets, then static path */}}
   {{ $image := .Page.Resources.GetMatch $src }}
   {{ if $image }}
     <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}" class="w-full rounded" loading="lazy" />
   {{ else }}
-    <img src="{{ $src | relURL }}" alt="{{ $alt }}" class="w-full rounded" loading="lazy" />
+    {{ $global := resources.Get $src }}
+    {{ if $global }}
+      <img src="{{ $global.RelPermalink }}" alt="{{ $alt }}" class="w-full rounded" loading="lazy" />
+    {{ else }}
+      <img src="{{ $src | relURL }}" alt="{{ $alt }}" class="w-full rounded" loading="lazy" />
+    {{ end }}
   {{ end }}
 
   {{ if $link }}

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/english/blog/conscious-agentic-orchestration.md",
+                "file": "content/english/blog/stop-expecting-to-hire-miracle-workers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "conscious-agentic-orchestration"
+              "title": "stop-expecting-to-hire-miracle-workers"
             }
           }
         ]
@@ -182,9 +182,10 @@
   },
   "active": "03ea4d6fb453741a",
   "lastOpenFiles": [
+    "content/english/blog/starting-fresh.md",
+    "content/english/blog/conscious-agentic-orchestration.md",
     "content/english/blog/wrapping-up-a-chapter-at-infinitas-learning.md",
     "content/english/blog/the-bot-chronicles-s01e03-voice-first-and-what-this-means-in-an-international-context.md",
-    "content/english/blog/conscious-agentic-orchestration.md",
     "content/english/blog/start-creating-3d-assets-from-your-products-as-in-now.md",
     "assets/images/blogposts/DPC-example.png",
     "assets/images/blogposts",
@@ -207,7 +208,6 @@
     "content/english/blog/the-bot-chronicles-s01e05-how-to-define-for-whom-to-build-your-bot.md",
     "content/english/blog/the-bot-chronicles-s01e01-crashcourse.md",
     "content/english/blog/stop-expecting-to-hire-miracle-workers.md",
-    "content/english/blog/starting-fresh.md",
     "content/english/blog/bot-chronicles-epilogue.md",
     "readme.md",
     "DEVELOPER_DOCS.md",
