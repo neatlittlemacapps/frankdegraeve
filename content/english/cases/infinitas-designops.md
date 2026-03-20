@@ -3,16 +3,16 @@ fileClass: case-study
 title: Building DesignOps at Scale
 meta_title: Infinitas Learning DesignOps — Frank De Graeve
 description: Scaling a design practice from 2 to 15+ designers through operational excellence
-date: '2024-02-10'
+date: 2024-02-10
 image: /images/image-placeholder.png
 categories:
-- DesignOps
+  - DesignOps
 author: Frank De Graeve
 tags:
-- designops
-- leadership
-- process
-draft: false
+  - designops
+  - leadership
+  - process
+draft: true
 ---
 
 ## The Challenge

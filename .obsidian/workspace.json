@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/english/blog/conscious-agentic-orchestration.md",
+                "file": "content/english/cases/liantis-ux-research.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "conscious-agentic-orchestration"
+              "title": "liantis-ux-research"
             }
           }
         ]
@@ -182,10 +182,12 @@
   },
   "active": "03ea4d6fb453741a",
   "lastOpenFiles": [
+    "content/english/cases/infinitas-designops.md",
+    "content/english/cases/_index.md",
+    "content/english/blog/conscious-agentic-orchestration.md",
     "content/english/blog/the-bot-chronicles-s01e05-how-to-define-for-whom-to-build-your-bot.md",
     "content/english/blog/the-bot-chronicles-s01e03-voice-first-and-what-this-means-in-an-international-context.md",
     "content/english/blog/start-creating-3d-assets-from-your-products-as-in-now.md",
-    "content/english/blog/conscious-agentic-orchestration.md",
     "content/english/blog/stop-expecting-to-hire-miracle-workers.md",
     "content/english/blog/starting-fresh.md",
     "content/english/blog/wrapping-up-a-chapter-at-infinitas-learning.md",
@@ -224,7 +226,6 @@
     "content/english/blog/_index.md",
     "content/english/blog/archive/2026/02/_index.md",
     "content/english/blog/archive/2017/01/_index.md",
-    "_fileClasses/blog-post.md",
     "static/images/medium",
     "static/images"
   ]

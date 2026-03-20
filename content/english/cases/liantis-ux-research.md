@@ -3,16 +3,16 @@ fileClass: case-study
 title: Research-Driven Digital Transformation
 meta_title: Liantis UX Research — Frank De Graeve
 description: User research and testing to inform digital strategy and redesign
-date: '2024-02-05'
+date: 2024-02-05
 image: /images/image-placeholder.png
 categories:
-- UX Research
+  - UX Research
 author: Frank De Graeve
 tags:
-- research
-- strategy
-- user-testing
-draft: false
+  - research
+  - strategy
+  - user-testing
+draft: true
 ---
 
 ## The Challenge
