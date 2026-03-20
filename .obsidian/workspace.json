@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/english/_index.md",
+                "file": "content/english/blog/conscious-agentic-orchestration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "conscious-agentic-orchestration"
             }
           }
         ]
@@ -182,6 +182,7 @@
   },
   "active": "03ea4d6fb453741a",
   "lastOpenFiles": [
+    "content/english/_index.md",
     "content/english/cases/liantis-ux-research.md",
     "content/english/cases/infinitas-designops.md",
     "content/english/cases/_index.md",
@@ -225,7 +226,6 @@
     "assets/images/medium/0_9D0J37m40h83A-RT.jpg",
     "assets/images/medium",
     "content/english/blog/_index.md",
-    "content/english/blog/archive/2026/02/_index.md",
     "static/images/medium",
     "static/images"
   ]

@@ -36,6 +36,11 @@
             </div>
           </div>
         {{ end }}
+        {{ if eq (len $paginator.Pages) 0 }}
+          <div class="col-12 py-16 text-center">
+            <p class="text-lg text-text-light dark:text-darkmode-text-light">Case studies are on their way. Check back soon.</p>
+          </div>
+        {{ end }}
         {{ partial "components/pagination.html" . }}
       </div>
     </div>
