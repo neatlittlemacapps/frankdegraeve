@@ -23,15 +23,19 @@ figure figcaption {
   color: var(--color-darkmode-text-light, #9aa590);
 }
 
+/* Wide figure: breaks out of the narrow text column to fill the container.
+   The article is lg:col-8 (66.67%) inside a centered row, so wide images
+   need to expand by (100/66.67 - 1)/2 = 25% on each side. */
 figure.wide {
-  margin-left: -2rem;
-  margin-right: -2rem;
+  width: 100%;
+  max-width: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   figure.wide {
-    margin-left: -4rem;
-    margin-right: -4rem;
+    width: 125%;
+    margin-left: -12.5%;
+    margin-right: -12.5%;
   }
 }
 
