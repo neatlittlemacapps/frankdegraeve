@@ -15,6 +15,4 @@ Most recently I built and led DesignOps at Infinitas Learning, standing up a sha
 
 Right now I'm exploring what it means to be a design leader when parts of design become AI-assisted. Not replacing the human role… sharpening it. Orchestration, governance, and making sure experiences stay useful and responsible at scale.
 
-If you want the full career story, there's a [detailed CV](/cv/) for that.
-
-**[Let's have a coffee](mailto:neatlittlemacapps@gmail.com)**
+If you want the full career story, **[Let's have a coffee](mailto:neatlittlemacapps@gmail.com)**.
