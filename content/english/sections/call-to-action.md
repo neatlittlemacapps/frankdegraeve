@@ -6,7 +6,7 @@ description: "I'm looking for a strategic role where I can build out design matu
 button:
   enable: true
   label: "Get in Touch"
-  link: "mailto:neatlittlemacapps@gmail.com"
+  link: "contact"
 
 # don't create a separate page
 build:
