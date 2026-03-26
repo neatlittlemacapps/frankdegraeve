@@ -27,25 +27,24 @@ I've been chewing on that for a while. Here's where I've landed. It's called Sig
 
 Everyone's sharing their agent stack right now. Their skill library. The prompt system that saves them forty minutes a day. And honestly? Some of it is good. I've stolen ideas. No shame.
 
-But almost all of it is *personal* infrastructure. It makes one person faster. It lives in one person's context. And when that person moves on, promoted, burned out, or just quietly stopped caring, the infrastructure doesn't disappear. It calcifies. It sits in a Notion page nobody updates, a skill library nobody extends, a prompt system that still works for the thing it was built for and nothing else. Dead infrastructure that looks alive is somehow worse than no infrastructure at all. At least a gap is honest.
+But almost all of it is *personal* infrastructure. It makes one person faster. It lives in one person's context. And when that person moves on, promoted, burned out, or just quietly stopped caring, the infrastructure doesn't disappear. It calcifies. It sits in a Notion page nobody updates, a skill library nobody extends, a prompt system that still works for the thing it was built for and nothing else. Or worse: it gets copied/forked and spins off in 30 different siloed flavours that do no longer align, accelerating inconsistencies throughout an organisation.
 
-That's not a system. That's a dependency with a productivity veneer.
+That's not a system. That's a dependency with a productivity veneer or a large scale confusion generator.
 
 The gap I want to close isn't individual capability. It's *organisational* capability. The connective tissue. The thing that means work done in one team automatically feeds the next. That's the gap I keep seeing. Everyone optimising the individual. Nobody building the connective tissue.
 
-## The brief that made me build this
+## The thought that made me build this
 
 Imagine you're the first UX hire in an organisation that has been building software for years without one.
-Multiple product verticals. No design system. No research practice. No communities of practice. PMs who currently resolve UX issues by writing a user manual, and genuinely believe that's the right answer. An aggressive AI roadmap that isn't slowing down for anyone. Budget: set. Timeline: yesterday.
+Multiple product verticals. No shared design system. Few research or communities of practice. An aggressive roadmap that isn't slowing down for anyone. Budget: set. Timeline: yesterday.
 You know what happens next. PMs write requirements. Engineering builds. UX isn't in the loop. The product ships. Users struggle. Someone files a ticket. A PM writes a user manual.
 (This sounds like a horror story. It's just a Tuesday in a lot of organisations.)
 
 You are one person. You cannot be in every room. You cannot review every prototype, sit in every discovery session, or coach every PM through outcome framing in real time.
 The real question isn't "where do we start?" It's "how do you democratise UX thinking across an entire organisation when you are, structurally, one person?"
-The answer can't be "work harder." It has to be: get the methodology into the infrastructure itself, and make the infrastructure learn.
+The answer can't be "work harder." It has to be: get the methodology and onboarding to it into the infrastructure itself, and make the infrastructure learn.
 
 ## Hub and spoke, except the spoke talks back
-
 
 Hub-and-spoke model. Familiar, up to a point.
 
@@ -73,13 +72,13 @@ Feature requests don't enter as requirements. They get reformulated. The agents 
 
 Only once that's clear does the system move to IA, through OOUX, so any prototype built has full knowledge of what it's trying to do and why everything connects. OKR suggestions come out of the same framing. Test results that return restart the cycle.
 
-The system doesn't just receive. It onboards, teaches, nudges. It has opinions. Strong ones, built from methodology, not vibes.
+The system doesn't just receive. It onboards according to experience of the wielder, teaches, nudges. It has opinions. Strong ones, built from methodology, not vibes.
 
 I know how that sounds. I built a very opinionated colleague. More or less correct. 😊
 
 ## The AI layer (and why it can't be naive)
 
-There's a parametrised AI interaction framework in the hub: transparency, human oversight, error prevention, appropriate delegation, with regulatory awareness built in where the domain requires it.
+Let's be honest, we're all looking at integrating (or replacing?) AI into our product offerings. so there's a parametrised AI interaction framework in the hub: transparency, human oversight, error prevention, appropriate delegation, with regulatory awareness built in where the domain requires it.
 
 These are the constraints that shape what responsible AI interaction looks like when stakes are high. The system knows this. It flags it. It asks the right questions before anyone gets too excited about a feature that turns out to be clashing with legal requirements. (Nobody's favourite meeting. Extremely necessary.)
 
@@ -107,8 +106,9 @@ Privacy isn't a feature here. It's structural. (Again, I might circle back to th
 
 I said beta at the top. I meant it.
 
-The architecture holds. Signal flow works end-to-end. The agents push back when you try to skip steps, which depending on your relationship with being challenged is either genuinely useful or mildly maddening. (Both reactions are valid. The pushing back stays.) But I'm currently in test scenario a5 of iteration 3 and 11 scenario's to go.
+The architecture holds. Signal flow works end-to-end. The agents push back when you try to skip steps, which depending on your relationship with being challenged is either genuinely useful or mildly maddening. (Both reactions are valid. The pushing back stays. Muhahahahahahaaaaa)
 
+I'm currently in test scenario a5 of iteration 3 and 11 scenario's to go.
 What I'm still calibrating: how much signal is enough before a pattern earns promotion? How do you handle genuinely contradictory findings across spokes without manufacturing consensus nobody actually believes? What does governance look like at the exact moment something is about to become institutional knowledge? How to store, transfer visual patterns (design system?)
 
 Not blockers. The interesting part, where the system stops being an architecture diagram and has to work with actual humans in actual organisations. Which, as anyone who's tried it knows, is where all the real complexity is hiding.
@@ -117,9 +117,9 @@ Not blockers. The interesting part, where the system stops being an architecture
 
 Not because it's finished. Clearly. Not to sell anything. I don't have a product page and my logo is best described as "pending."
 
-I want to name something while it's early. We're pretty good at individual AI capability right now. Agent setups, skill stacks, personal workflows. The art of making yourself faster.
+I want to name something while it's early. We're pretty good at individual AI capability right now. Agent setups, skill stacks, personal workflows. The art of making individuals faster.
 
-Making *organisations* smarter through AI, that's the part we haven't cracked. How do you make knowledge transfer automatic? How do you embed methodology instead of just documenting it? How do you make sure work done anywhere in the system strengthens the foundation for everyone else? The system has onboarding and nudging prompts but that's a long way away of truly integrating this, and seeing the results (Oh, look...  Turns out it's shit in the end afterall. Oh wel...)
+Making *diverse organisations* smarter through AI, that's the part we haven't cracked. How do you make knowledge transfer automatic? How do you embed methodology instead of just documenting it? How do you make sure work done anywhere in the system strengthens the foundation for everyone else? The system has onboarding and nudging prompts but that's a long way away of truly integrating this, and seeing the results (Oh, look...  Turns out it's shit in the end afterall. Oh well...)
 
 I might also be lagging already (again... ugh...) and perhaps the above is what full freewheeling agentic systems deliver. (I'm looking at you nanoClaw or whatever the newest fancy iteration of you is.) But I have to give this a shot.
 
