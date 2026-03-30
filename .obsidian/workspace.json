@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/english/blog/start-creating-3d-assets-from-your-products-as-in-now.md",
+                "file": "content/english/blog/signal-foundry-what-if-the-system-got-smarter-every-time-someone-used-it.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "start-creating-3d-assets-from-your-products-as-in-now"
+              "title": "signal-foundry-what-if-the-system-got-smarter-every-time-someone-used-it"
             }
           }
         ]
@@ -182,6 +182,7 @@
   },
   "active": "20e5c16da758bf33",
   "lastOpenFiles": [
+    "content/english/blog/start-creating-3d-assets-from-your-products-as-in-now.md",
     "content/english/blog/signal-foundry-what-if-the-system-got-smarter-every-time-someone-used-it.md",
     "_fileClasses/blog-post.md",
     "content/english/blog/chatbot-development-for-the-masses.md",
@@ -193,7 +194,6 @@
     "content/english/blog/the-bot-chronicles-s01e05-how-to-define-for-whom-to-build-your-bot.md",
     "content/english/blog/the-bot-chronicles-s01e07-how-to-define-your-bot-functionality.md",
     "content/english/blog/stop-expecting-to-hire-miracle-workers.md",
-    "content/english/blog/start-creating-3d-assets-from-your-products-as-in-now.md",
     "content/english/blog/conscious-agentic-orchestration.md",
     "content/english/blog/bot-chronicles-epilogue.md",
     "layouts/partials/basic-seo.html",

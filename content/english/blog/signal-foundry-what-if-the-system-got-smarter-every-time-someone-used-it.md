@@ -7,6 +7,7 @@ date: 2026-03-26
 image: /images/teasers/signal-foundry-b.png
 og_image: /images/blogposts/signal-foundry-b-schema.png
 categories:
+  - Agentic Orchestration
   - DesignOps
 author: Frank De Graeve
 tags:
